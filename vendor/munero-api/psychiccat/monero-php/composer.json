@@ -1,0 +1,20 @@
+{
+    "name": "psychiccat/monero-php",
+    "description": "A PHP library for the Monero simplewallet JSON-RPC interface.",
+    "keywords": ["Monero", "Poloniex", "cryptocurrency", "Shapeshift"],
+    "homepage": "https://github.com/PsychicCat/monero-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brendan Telzrow",
+            "email": "telzrowb@gmail.com"
+        }
+    ],
+    "require": {
+        "graze/guzzle-jsonrpc": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {"Monero\\":"src/"}
+    }
+}
